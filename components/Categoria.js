@@ -17,7 +17,7 @@ const Categoria = ({categoria}) => {
 
         <button
         type="button"
-        className='text-2xl font-bold hover:cursor-ponter'
+        className='text-2xl font-bold text-left hover:cursor-ponter w-full'
         onClick={() => handleClickCategoria(id)}>
           {nombre}
         </button>
